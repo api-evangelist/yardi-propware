@@ -1,56 +1,22 @@
-name: Yardi Propware API
-description: Yardi Propware is a cloud-based property management software platform that provides APIs for managing residential and commercial properties, including features for accounting, leasing, maintenance, and reporting.
-image: https://www.yardi.com/wp-content/uploads/2023/01/Yardi-logo.png
-url: https://www.propware.com
-created: '2025-01-20'
-modified: '2025-01-20'
-specificationVersion: '0.18'
-apis:
-- name: Yardi Propware REST API
-  description: RESTful API for accessing and managing property data, tenants, leases, work orders, accounting, and other property management functions within Propware.
-  image: https://www.yardi.com/wp-content/uploads/2023/01/Yardi-logo.png
-  humanURL: https://www.propware.com
-  baseURL: https://api.propware.com/v1
-  tags:
+aid: yardi-propware
+name: Yardi Propware
+description: >-
+  Yardi Propware is a cloud-based property management software platform
+  providing tools for managing residential and commercial properties including
+  accounting, leasing, maintenance, and reporting. No publicly accessible
+  developer portal or documented API has been confirmed for this product.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
   - Property Management
   - Real Estate
-  - Accounting
-  - Leasing
-  - Maintenance
-  - Tenants
-  - Vendors
-  properties:
-  - type: X-documentation
-    url: https://api.propware.com/docs
-  - type: X-openapi
-    url: https://api.propware.com/swagger.json
-  - type: X-authentication
-    url: https://api.propware.com/docs/authentication
-  - type: X-rate-limits
-    url: https://api.propware.com/docs/rate-limits
-  - type: X-postman-collection
-    url: https://www.postman.com/propware/workspace/propware-api
-  - type: X-support
-    url: https://support.propware.com
-  - type: X-terms-of-service
-    url: https://www.propware.com/terms-of-service
-  - type: X-privacy-policy
-    url: https://www.propware.com/privacy-policy
-  contact:
-  - FN: Propware API Support
-    email: apisupport@propware.com
-    X-twitter: propware
+  - Yardi
+created: '2025-01-20'
+modified: '2026-03-16'
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/yardi-propware/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis: []
 maintainers:
-- FN: Yardi Systems Inc.
-  email: support@yardi.com
-  X-twitter: yarditech
-tags:
-- Property Management
-- Real Estate
-- SaaS
-- APIs
-- Yardi
-- Propware
-- Rental Management
-- Landlord Software
-include: []
+  - FN: Kin Lane
+    email: kin@apievangelist.com
