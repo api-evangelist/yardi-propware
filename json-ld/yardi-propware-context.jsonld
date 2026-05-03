@@ -1,0 +1,116 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "schema": "https://schema.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "yardi": "https://www.yardi.com/vocab/",
+
+    "Property": {
+      "@id": "schema:RealEstateListing",
+      "@type": "@id"
+    },
+    "Unit": {
+      "@id": "schema:Accommodation",
+      "@type": "@id"
+    },
+    "Tenant": {
+      "@id": "schema:Person",
+      "@type": "@id"
+    },
+    "Lease": {
+      "@id": "yardi:Lease",
+      "@type": "@id"
+    },
+    "Resident": {
+      "@id": "yardi:Resident",
+      "@type": "@id"
+    },
+    "RentRoll": {
+      "@id": "yardi:RentRoll",
+      "@type": "@id"
+    },
+    "ChartOfAccounts": {
+      "@id": "yardi:ChartOfAccounts",
+      "@type": "@id"
+    },
+    "GeneralLedger": {
+      "@id": "yardi:GeneralLedger",
+      "@type": "@id"
+    },
+    "AccountsPayable": {
+      "@id": "yardi:AccountsPayable",
+      "@type": "@id"
+    },
+    "AccountsReceivable": {
+      "@id": "yardi:AccountsReceivable",
+      "@type": "@id"
+    },
+    "WorkOrder": {
+      "@id": "yardi:WorkOrder",
+      "@type": "@id"
+    },
+    "Vendor": {
+      "@id": "schema:Organization",
+      "@type": "@id"
+    },
+    "Vacancy": {
+      "@id": "yardi:Vacancy",
+      "@type": "@id"
+    },
+    "OccupancyRate": {
+      "@id": "yardi:OccupancyRate",
+      "@type": "xsd:decimal"
+    },
+    "LateFee": {
+      "@id": "yardi:LateFee",
+      "@type": "xsd:decimal"
+    },
+    "SecurityDeposit": {
+      "@id": "yardi:SecurityDeposit",
+      "@type": "xsd:decimal"
+    },
+    "Portfolio": {
+      "@id": "yardi:Portfolio",
+      "@type": "@id"
+    },
+
+    "propertyId": {
+      "@id": "schema:identifier",
+      "@type": "xsd:string"
+    },
+    "unitNumber": {
+      "@id": "yardi:unitNumber",
+      "@type": "xsd:string"
+    },
+    "leaseStartDate": {
+      "@id": "schema:startDate",
+      "@type": "xsd:date"
+    },
+    "leaseEndDate": {
+      "@id": "schema:endDate",
+      "@type": "xsd:date"
+    },
+    "monthlyRent": {
+      "@id": "yardi:monthlyRent",
+      "@type": "xsd:decimal"
+    },
+    "balance": {
+      "@id": "yardi:balance",
+      "@type": "xsd:decimal"
+    },
+    "address": {
+      "@id": "schema:address",
+      "@type": "@id"
+    },
+    "name": {
+      "@id": "schema:name",
+      "@type": "xsd:string"
+    },
+    "description": {
+      "@id": "schema:description",
+      "@type": "xsd:string"
+    }
+  }
+}

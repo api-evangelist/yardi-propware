@@ -1,42 +1,26 @@
-# Yardi Propware API (yardi-propware)
-Yardi Propware is a cloud-based property management software platform that provides APIs for managing residential and commercial properties, including features for accounting, leasing, maintenance, and reporting.
+# Yardi Propware
 
-**URL:** [Visit APIs.json URL](https://www.propware.com)
+Yardi Propware was the original flagship property management software by Yardi Systems, first released in 1984. It was an early desktop-based real estate management platform for residential and commercial property accounting, leasing, and management. Yardi has since evolved its platform into cloud-based offerings including Yardi Voyager and Yardi Breeze.
 
-## Tags:
+No publicly accessible developer portal or documented REST API has been confirmed for Yardi Propware specifically. Yardi's modern integrations are managed through the [Yardi Interface Partnership Program](https://www.yardi.com/company/become-an-interface-partner/).
 
- - Property Management, Real Estate, SaaS, APIs, Yardi, Propware, Rental Management, Landlord Software
+**Human URL:** [https://www.yardi.com/](https://www.yardi.com/)
 
-## Timestamps
+## Links
 
-- **Created:** 2025-01-20 
-- **Modified:** 2025-01-20 
+- [Developer Resources](https://www.yardi.com/platform/api/)
+- [Interface Partner Program](https://www.yardi.com/company/become-an-interface-partner/)
+- [Find an Interface Partner](https://www.yardi.com/company/find-an-interface-partner/)
+- [GitHub Organization](https://github.com/YardiSystems)
+- [Contact](https://www.yardi.com/contact-us/)
 
-## APIs
+## Artifacts
 
-### Yardi Propware REST API
-RESTful API for accessing and managing property data, tenants, leases, work orders, accounting, and other property management functions within Propware.
+| Type | Path |
+|------|------|
+| Vocabulary | [vocabulary/yardi-propware-vocabulary.yml](vocabulary/yardi-propware-vocabulary.yml) |
+| JSON-LD Context | [json-ld/yardi-propware-context.jsonld](json-ld/yardi-propware-context.jsonld) |
 
-**Human URL:** [https://www.propware.com](https://www.propware.com)
+## Tags
 
-
-#### Tags:
-
- - Property Management, Real Estate, Accounting, Leasing, Maintenance, Tenants, Vendors
-
-#### Properties
-
-- [X-documentation](https://api.propware.com/docs)
-- [X-openapi](https://api.propware.com/swagger.json)
-- [X-authentication](https://api.propware.com/docs/authentication)
-- [X-rate-limits](https://api.propware.com/docs/rate-limits)
-- [X-postman-collection](https://www.postman.com/propware/workspace/propware-api)
-- [X-support](https://support.propware.com)
-- [X-terms-of-service](https://www.propware.com/terms-of-service)
-- [X-privacy-policy](https://www.propware.com/privacy-policy)
-
-## Maintainers
-
-**FN:** Yardi Systems Inc.
-
-**Email:** support@yardi.com
+Property Management, Real Estate, Residential, Commercial, Leasing, Accounting, Yardi
