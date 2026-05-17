@@ -29,9 +29,9 @@ common:
     url: https://www.yardi.com/
   - type: Documentation
     url: https://www.yardi.com/platform/api/
-  - type: Getting Started
+  - type: GettingStarted
     url: https://www.yardi.com/company/become-an-interface-partner/
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/YardiSystems
   - type: Partner Program
     url: https://www.yardi.com/company/find-an-interface-partner/
