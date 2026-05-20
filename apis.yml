@@ -25,6 +25,8 @@ url: >-
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/yardi-systems
   - type: Website
     url: https://www.yardi.com/
   - type: Documentation
