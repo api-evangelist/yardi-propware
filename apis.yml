@@ -33,7 +33,7 @@ created: '2025-01-20'
 modified: '2026-05-03'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/yardi-propware/refs/heads/main/apis.yml
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis: []
 common:
   - type: DomainSecurity
