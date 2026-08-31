@@ -17,12 +17,9 @@
     },
     {
       "source": "https://www.yardi.com/product/marketplace/",
-      "feed_url": "https://www.yardi.com/product/marketplace/feed/",
-      "title": "",
-      "saved": 0,
-      "method": "discovered"
+      "error": "HTTPError"
     }
   ],
-  "fetched": "2026-08-22T20:20:02Z",
-  "post_count": 23
+  "fetched": "2026-08-30T22:33:40Z",
+  "post_count": 24
 }
